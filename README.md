@@ -8,6 +8,7 @@
 <a href="https://wakatime.com/@ghimireaacs">
   <img align="right" width="400" height="300" src="https://wakatime.com/share/@ghimireaacs/8873c33a-e347-49eb-8461-a32de00ebcf5.svg" />
 </a></p>
+![:ghimireaacs](https://count.getloli.com/get/@ghimireaacs?theme=asoul)
 <!--
 **ghimireaacs/ghimireaacs** is a .✨s _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
