@@ -1,4 +1,4 @@
-### Hi there 👋
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&width=435&lines=Hi+%F0%9F%91%8B+There+I+am+Ashish;I+am+a+Tech+Enthusiast+I+think+%F0%9F%92%AD;I+love+anything+related+to+Computers+%F0%9F%92%BB;So+kind+of+undecisive+between+Cybersec+%F0%9F%8F%B4%E2%80%8D%E2%98%A0%EF%B8%8F+and+WebDev+%F0%9F%91%A8%E2%80%8D%F0%9F%92%BB)](https://git.io/typing-svg)
 <p align="center"><a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=ghimireaacs&show_icons=true&theme=tokyonight" />
 </a></p>
