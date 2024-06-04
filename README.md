@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&width=435&lines=Hi+%F0%9F%91%8B+There+I+am+Ashish;I+am+a+Tech+Enthusiast+I+think+%F0%9F%92%AD;I+love+Computers++%F0%9F%92%BB;Currently+CyberSec+%F0%9F%94%91+and+WebDev+%F0%9F%95%B8%EF%B8%8F)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&width=435&lines=Hi+%F0%9F%91%8B+There+I+am+Ashish;I+am+a+WebDeveloper+%F0%9F%95%B8%EF%B8%8F)](https://git.io/typing-svg)
 <p align="center"><a href="https://github.com/anuraghazra/github-readme-stats">
   <img align="center" src="https://github-readme-stats.vercel.app/api?username=ghimireaacs&show_icons=true&theme=tokyonight" />
 </a></p>
