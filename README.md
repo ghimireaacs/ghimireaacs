@@ -25,7 +25,6 @@ I specialize in crafting visually appealing and responsive web applications with
 
 ### Badges
 <img src="https://tryhackme-badges.s3.amazonaws.com/ghostaacs.png" alt="TryHackMe">
-<script src="https://tryhackme.com/badge/1040119"></script>
 
 <b>My GitHub Stats</b>
 
