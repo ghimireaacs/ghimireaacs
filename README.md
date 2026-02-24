@@ -91,6 +91,8 @@ Built and maintained a production homelab on bare metal — evidence of initiati
 
 Full IaC repo: [myhomelab](https://github.com/ghimireaacs/myhomelab)
 
+[![Homelab Architecture](https://raw.githubusercontent.com/ghimireaacs/myhomelab/main/diagrams/homelab-diagram.jpg)](https://github.com/ghimireaacs/myhomelab)
+
 ---
 
 ## Scripting & Automation
