@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&pause=1000&width=500&lines=Hi+there%2C+I'm+Prashant;IT+Support+%26+Infrastructure+Engineer;Microsoft+365+%7C+Active+Directory+%7C+Azure;Homelab+builder+on+Proxmox+%2B+k3s+%2B+Docker)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&pause=1000&width=500&lines=Hi+there%2C+I'm+Prashant;IT+Support+%26+Infrastructure+Engineer;Microsoft+365+%7C+Active+Directory+%7C+Azure;Homelab+builder+on+Proxmox+%2B+k3s+%2B+Docker;Blue+Team+%7C+BTLO+%2323+AU+%7C+Log+Analysis)](https://git.io/typing-svg)
 
 </div>
 
@@ -9,10 +9,10 @@
 ```yaml
 name: Prashant Ghimire
 location: Australia
-target_roles: ["IT Support", "Help Desk", "Desktop Support", "Junior Infrastructure"]
 microsoft_stack: ["Microsoft 365", "Active Directory", "Windows Server", "Intune/MDM", "Exchange Online", "Azure", "MFA/Conditional Access"]
 networking: ["TCP/IP", "DNS", "DHCP", "VLANs", "OPNsense", "WireGuard", "Subnetting"]
 homelab: ["Proxmox", "k3s", "Docker", "TrueNAS", "Terraform", "Ansible"]
+security: ["Blue Team", "SIEM", "Wireshark", "Nmap", "Log Analysis", "Incident Response", "BTLO", "TryHackMe"]
 framework: ["ITIL"]
 ```
 
@@ -23,6 +23,8 @@ framework: ["ITIL"]
 IT graduate based in Australia with practical skills across Microsoft 365, Active Directory, Windows Server, and endpoint management. Completed the Job Ready Program covering the full Microsoft stack: M365 administration, Azure, Intune, Exchange Online, and enterprise support workflows.
 
 Outside of that, I run a production homelab (Proxmox cluster, k3s, TrueNAS) where I build and break real infrastructure. I also write open source tools and themes for the homelabber community.
+
+I also practice blue team security — log analysis, incident response, and digital forensics — through Blue Team Labs Online (Junior Defender, #23 Australia / #376 global) and TryHackMe.
 
 ---
 
@@ -107,6 +109,26 @@ Production homelab on bare metal. Full IaC repo: [myhomelab](https://github.com/
 
 ---
 
+## Security & Monitoring
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Nmap-0E83CD?style=for-the-badge&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Loki-F5B800?style=for-the-badge&logo=grafana&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Authentik-FD4B2D?style=for-the-badge&logoColor=white"/>
+</p>
+
+- Loki + Grafana + Prometheus: centralised log stack across k3s cluster — alerts, dashboards, log correlation
+- OPNsense: firewall rules per VLAN, IDS/IPS, traffic inspection, network segmentation as security control
+- Authentik SSO: MFA enforced across all self-hosted services, OAuth2/OIDC integration
+- BTLO: 32 investigations — Incident Response, Digital Forensics, Security Ops, Threat Intelligence
+- TryHackMe: Junior Pentesting cert (handle: ghostaacs)
+- Tools used in labs: Wireshark, Nmap, Volatility, Autopsy
+
+---
+
 ## Scripting & Automation
 
 <p align="center">
@@ -136,6 +158,19 @@ Production homelab on bare metal. Full IaC repo: [myhomelab](https://github.com/
     <img src="https://github-profile-trophy.vercel.app/?username=ghimireaacs&theme=discord&no-frame=true&no-bg=true&row=1&column=7"/>
   </a>
 </div>
+
+**Blue Team Labs Online** — [Junior Defender](https://blueteamlabs.online/public/user/aacs)
+
+<div align="center">
+  <a href="https://blueteamlabs.online/public/user/aacs">
+    <img src="https://img.shields.io/badge/BTLO-Junior_Defender-0078D4?style=for-the-badge&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Global-%23376-1e3a5f?style=for-the-badge&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Australia-%2323-1e3a5f?style=for-the-badge&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Points-1256-0891b2?style=for-the-badge&logoColor=white"/>
+  </a>
+</div>
+
+32 investigations · 15 challenges — Incident Response, Digital Forensics, Security Ops, Threat Intelligence
 
 ---
 
