@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&pause=1000&width=500&lines=Hi+there%2C+I'm+Prashant;IT+Support+%26+Infrastructure+Engineer;Microsoft+365+%7C+Active+Directory+%7C+Azure;Homelab+builder+on+Proxmox+%2B+k3s+%2B+Docker;Blue+Team+%7C+BTLO+%2323+AU+%7C+Log+Analysis)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&pause=1000&width=500&lines=Hi+there%2C+I'm+Prashant;IT+Support+%26+Infrastructure+Engineer;Microsoft+365+%7C+Active+Directory+%7C+Azure;Homelab+builder+on+Proxmox+%2B+k3s+%2B+Docker;Blue+Team+%7C+BTLO+%2324+AU+%7C+Wazuh+%7C+Log+Analysis)](https://git.io/typing-svg)
 
 </div>
 
@@ -12,7 +12,7 @@ location: Australia
 microsoft_stack: ["Microsoft 365", "Active Directory", "Windows Server", "Intune/MDM", "Exchange Online", "Azure", "MFA/Conditional Access"]
 networking: ["TCP/IP", "DNS", "DHCP", "VLANs", "OPNsense", "WireGuard", "Subnetting"]
 homelab: ["Proxmox", "k3s", "Docker", "TrueNAS", "Terraform", "Ansible"]
-security: ["Blue Team", "SIEM", "Wireshark", "Nmap", "Log Analysis", "Incident Response", "BTLO", "TryHackMe"]
+security: ["Blue Team", "Wazuh SIEM", "Wireshark", "Nmap", "Log Analysis", "Incident Response", "BTLO", "TryHackMe"]
 framework: ["ITIL"]
 ```
 
@@ -22,9 +22,9 @@ framework: ["ITIL"]
 
 IT graduate based in Australia with practical skills across Microsoft 365, Active Directory, Windows Server, and endpoint management. Completed the Job Ready Program covering the full Microsoft stack: M365 administration, Azure, Intune, Exchange Online, and enterprise support workflows.
 
-Outside of that, I run a production homelab (Proxmox cluster, k3s, TrueNAS) where I build and break real infrastructure. I also write open source tools and themes for the homelabber community.
+Outside of that, I run a production homelab (Proxmox cluster, k3s, TrueNAS) with 40+ services in daily use, every Kubernetes workload resource-governed from live metrics, and a dozen PostgreSQL instances behind it. I also write open source tools and themes for the homelabber community.
 
-I also practice blue team security — log analysis, incident response, and digital forensics — through Blue Team Labs Online (Junior Defender, #23 Australia / #376 global) and TryHackMe.
+On the security side I run a dedicated Wazuh SIEM with agents on lab hosts, and practice blue team work — log analysis, incident response, and digital forensics — through Blue Team Labs Online (Junior Defender, #24 Australia / #431 global) and TryHackMe.
 
 ---
 
@@ -37,7 +37,7 @@ I also practice blue team security — log analysis, incident response, and digi
 
 </div>
 
-**grain-hugo-theme**: A dark grain Hugo theme for a resume/portfolio site. Driven by YAML data files, no JavaScript framework, responsive. Used on [prashantghimire.dev](https://prashantghimire.dev). Submitted to the Hugo themes directory.
+**grain-hugo-theme**: A Hugo resume/portfolio theme driven by YAML data files, no JavaScript framework, responsive. Powers [prashantghimire.dev](https://prashantghimire.dev).
 
 **codeshuttle**: A pastebin-style tool built for homelabbers. Image published to GHCR. Drop it in Docker Compose and share snippets across your lab.
 
@@ -88,7 +88,7 @@ I also practice blue team security — log analysis, incident response, and digi
 
 ## Homelab & Infrastructure
 
-Production homelab on bare metal. Full IaC repo: [myhomelab](https://github.com/ghimireaacs/myhomelab)
+Production homelab on bare metal: 2-node Proxmox cluster, 3-node k3s cluster, 40+ services, 12 PostgreSQL instances, every Kubernetes workload resource-governed from live usage metrics. Full IaC repo: [myhomelab](https://github.com/ghimireaacs/myhomelab)
 
 <p align="center">
   <img src="https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white"/>
@@ -112,16 +112,14 @@ Production homelab on bare metal. Full IaC repo: [myhomelab](https://github.com/
 ## Security & Monitoring
 
 <p align="center">
+  <img src="https://img.shields.io/badge/Wazuh-3585FF?style=for-the-badge&logo=wazuh&logoColor=white"/>
   <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white"/>
   <img src="https://img.shields.io/badge/Nmap-0E83CD?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Loki-F5B800?style=for-the-badge&logo=grafana&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Authentik-FD4B2D?style=for-the-badge&logoColor=white"/>
 </p>
 
+- Wazuh SIEM on a dedicated VM: manager, indexer, dashboard, agents enrolled on lab hosts — FIM, SCA, vulnerability detection, alert review
 - Loki + Grafana + Prometheus: centralised log stack across k3s cluster — alerts, dashboards, log correlation
-- OPNsense: firewall rules per VLAN, IDS/IPS, traffic inspection, network segmentation as security control
+- OPNsense: firewall rules per VLAN, traffic inspection, network segmentation as security control
 - Authentik SSO: MFA enforced across all self-hosted services, OAuth2/OIDC integration
 - BTLO: 32 investigations — Incident Response, Digital Forensics, Security Ops, Threat Intelligence
 - TryHackMe: Junior Pentesting cert (handle: ghostaacs)
@@ -154,9 +152,6 @@ Production homelab on bare metal. Full IaC repo: [myhomelab](https://github.com/
 
 <div align="center">
   <img src="https://tryhackme-badges.s3.amazonaws.com/ghostaacs.png" alt="TryHackMe" width="150"/>
-  <a href="https://github.com/ghimireaacs">
-    <img src="https://github-profile-trophy.vercel.app/?username=ghimireaacs&theme=discord&no-frame=true&no-bg=true&row=1&column=7"/>
-  </a>
 </div>
 
 **Blue Team Labs Online** — [Junior Defender](https://blueteamlabs.online/public/user/aacs)
@@ -164,8 +159,8 @@ Production homelab on bare metal. Full IaC repo: [myhomelab](https://github.com/
 <div align="center">
   <a href="https://blueteamlabs.online/public/user/aacs">
     <img src="https://img.shields.io/badge/BTLO-Junior_Defender-0078D4?style=for-the-badge&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Global-%23376-1e3a5f?style=for-the-badge&logoColor=white"/>
-    <img src="https://img.shields.io/badge/Australia-%2323-1e3a5f?style=for-the-badge&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Global-%23431-1e3a5f?style=for-the-badge&logoColor=white"/>
+    <img src="https://img.shields.io/badge/Australia-%2324-1e3a5f?style=for-the-badge&logoColor=white"/>
     <img src="https://img.shields.io/badge/Points-1256-0891b2?style=for-the-badge&logoColor=white"/>
   </a>
 </div>
@@ -189,10 +184,4 @@ Production homelab on bare metal. Full IaC repo: [myhomelab](https://github.com/
   <a href="mailto:jobs@prashantghimire.dev">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
-</div>
-
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/?username=ghimireaacs&color=0891b2&style=for-the-badge&label=PROFILE+VIEWS)
-
 </div>
