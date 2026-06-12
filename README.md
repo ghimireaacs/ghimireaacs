@@ -12,7 +12,7 @@ location: Australia
 microsoft_stack: ["Microsoft 365", "Active Directory", "Windows Server", "Intune/MDM", "Exchange Online", "Azure", "MFA/Conditional Access"]
 networking: ["TCP/IP", "DNS", "DHCP", "VLANs", "OPNsense", "WireGuard", "Subnetting"]
 homelab: ["Proxmox", "k3s", "Docker", "TrueNAS", "Terraform", "Ansible"]
-security: ["Blue Team", "Wazuh SIEM", "Wireshark", "Nmap", "Log Analysis", "Incident Response", "BTLO", "TryHackMe"]
+security: ["Blue Team", "Wazuh SIEM", "Detection Rules", "MITRE ATT&CK", "CrowdSec", "Wireshark", "Log Analysis", "Incident Response", "BTLO"]
 framework: ["ITIL"]
 ```
 
@@ -113,11 +113,13 @@ Production homelab on bare metal: 2-node Proxmox cluster, 3-node k3s cluster, 40
 
 <p align="center">
   <img src="https://img.shields.io/badge/Wazuh-3585FF?style=for-the-badge&logo=wazuh&logoColor=white"/>
+  <img src="https://img.shields.io/badge/CrowdSec-22A7F0?style=for-the-badge&logoColor=white"/>
   <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white"/>
   <img src="https://img.shields.io/badge/Nmap-0E83CD?style=for-the-badge&logoColor=white"/>
 </p>
 
-- Wazuh SIEM on a dedicated VM: manager, indexer, dashboard, agents enrolled on lab hosts — FIM, SCA, vulnerability detection, alert review
+- Wazuh SIEM on a dedicated VM: manager, indexer, dashboard, agents on Windows and Linux hosts — FIM, SCA, alert triage, plus custom detection rules I wrote (OPNsense firewall logs ingested over agentless syslog, port-scan correlation mapped to MITRE ATT&CK T1046)
+- CrowdSec: behavioural intrusion detection on the internet-exposed host, community threat intel
 - Loki + Grafana + Prometheus: centralised log stack across k3s cluster — alerts, dashboards, log correlation
 - OPNsense: firewall rules per VLAN, traffic inspection, network segmentation as security control
 - Authentik SSO: MFA enforced across all self-hosted services, OAuth2/OIDC integration
